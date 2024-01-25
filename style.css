@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: grid;
+    place-items: center;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .title {
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .login {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 15px 15px;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 3px rgba(128, 128, 128, 0.304);
+  }
+  .name {
+    font-family: "Outfit", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #0866ff;
+  }
+  #text1 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+  }
+  #email,
+  #password,
+  #blue,
+  #green {
+    border: 1px solid gray;
+    border-radius: 6px;
+  }
+  #email,
+  #password {
+    width: 364px;
+    padding: 10px 8px;
+    font-size: 20px;
+  }
+  #blue {
+    background-color: #1877f2;
+    width: 385px;
+  }
+  #blue,
+  #green {
+    color: #ffffff;
+    padding: 10px 15px;
+    font-weight: 700;
+    height: 44.4px;
+    cursor: pointer;
+  }
+  hr {
+    width: 364px;
+  }
+  #green {
+    background-color: #43b42d;
+    width: fit-content;
+  }
+  #text2:hover {
+    text-decoration: underline;
+    color: #1877f2;
+  }
+  a {
+    color: #1877f2;
+  }
+  @media screen and (max-width: 886px) {
+    .title {
+      width: 400px;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .title {
+      width: 380px;
+    }
+    .login {
+      width: 360px;
+    }
+    #email,
+    #password {
+      width: 330px;
+    }
+    #blue {
+      width: 350px;
+    }
+  }
